@@ -10,3 +10,4 @@ if line(array)
   end
   puts "#{message}"
   end
+end
