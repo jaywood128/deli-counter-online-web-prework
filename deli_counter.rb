@@ -10,9 +10,7 @@ def line(array)
   puts "#{message}"
   end
 end
-def take_a_number(array, name)
-  array.push(name)
-  position = array.index(name)
-  puts"Welcome, #{array.index(name)}. You are number #{array.index(name) + 1} in line."
-  return name, position
+def take_a_number(katz_deli, name)
+  katz_deli.push(name)
+  puts"Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
